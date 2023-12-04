@@ -44,7 +44,7 @@ func NewWindow(queryType string, queries []SliQueryGroup, threshold float32, op 
 	this := Window{}
 	this.QueryType = queryType
 	this.Queries = queries
-	this.EvaluationType = evaluationType
+	// this.EvaluationType = evaluationType
 	this.Threshold = threshold
 	this.Op = op
 	this.Size = size

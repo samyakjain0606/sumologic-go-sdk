@@ -32,7 +32,7 @@ type _Monitor Monitor
 // will change when the set of required properties is changed
 func NewMonitor(monitorTriggers []MonitorTrigger, evaluationType string) *Monitor {
 	this := Monitor{}
-	this.EvaluationType = evaluationType
+	// this.EvaluationType = evaluationType
 	this.MonitorTriggers = monitorTriggers
 	return &this
 }

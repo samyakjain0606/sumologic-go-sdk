@@ -40,7 +40,7 @@ func NewRequest(queryType string, queries []SliQueryGroup, evaluationType string
 	this := Request{}
 	this.QueryType = queryType
 	this.Queries = queries
-	this.EvaluationType = evaluationType
+	// this.EvaluationType = evaluationType
 	return &this
 }
 

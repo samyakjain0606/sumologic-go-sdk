@@ -34,9 +34,9 @@ type _CalendarCompliance CalendarCompliance
 // will change when the set of required properties is changed
 func NewCalendarCompliance(windowType string, complianceType string, target float32, timezone string) *CalendarCompliance {
 	this := CalendarCompliance{}
-	this.ComplianceType = complianceType
-	this.Target = target
-	this.Timezone = timezone
+	// this.ComplianceType = complianceType
+	// this.Target = target
+	// this.Timezone = timezone
 	this.WindowType = windowType
 	return &this
 }

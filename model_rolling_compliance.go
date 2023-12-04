@@ -32,9 +32,9 @@ type _RollingCompliance RollingCompliance
 // will change when the set of required properties is changed
 func NewRollingCompliance(size string, complianceType string, target float32, timezone string) *RollingCompliance {
 	this := RollingCompliance{}
-	this.ComplianceType = complianceType
-	this.Target = target
-	this.Timezone = timezone
+	// this.ComplianceType = complianceType
+	// this.Target = target
+	// this.Timezone = timezone
 	this.Size = size
 	return &this
 }
