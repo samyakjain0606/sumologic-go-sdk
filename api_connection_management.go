@@ -695,7 +695,7 @@ func (a *ConnectionManagementAPIService) TestConnectionExecute(r ApiTestConnecti
 	if r.functionalities != nil {
 		parameterAddToHeaderOrQuery(localVarQueryParams, "functionalities", r.functionalities, "csv")
 	} else {
-		var defaultValue []string = ["alert"]
+		var defaultValue []string = []string{"alert"}
 		r.functionalities = &defaultValue
 	}
 	if r.connectionId != nil {
