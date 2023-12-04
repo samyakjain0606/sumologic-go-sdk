@@ -33,7 +33,7 @@ type _AlertSignalContext AlertSignalContext
 // will change when the set of required properties is changed
 func NewAlertSignalContext(alertId string, contextType string) *AlertSignalContext {
 	this := AlertSignalContext{}
-	this.ContextType = contextType
+	// this.ContextType = contextType
 	this.AlertId = alertId
 	return &this
 }
